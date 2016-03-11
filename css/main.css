@@ -1,0 +1,8 @@
+.nav-image{width:185px;margin-top:-6%;}
+body {background: url('../images/background.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;}
+.square-images{width:151px;}
+#squares{margin-top: 1%;padding:2%;color:white;}
