@@ -6,3 +6,4 @@ body {background: url('../images/background.png');
     -o-background-size: cover;}
 .square-images{width:151px;}
 #squares{margin-top: 1%;padding:2%;color:white;}
+#form-contact{background-color: whitesmoke;margin-top:5%;margin-bottom: 5%; padding:3%;}
