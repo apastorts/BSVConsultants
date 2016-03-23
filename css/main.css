@@ -1,9 +1,14 @@
 .nav-image{width:185px;margin-top:-6%;}
-body {background: url('../images/background.png');
+.nav-image-2{width:100px;margin-top:-6%;}
+#index-body {background: url('../images/background.png');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;}
+#about-body {background: url('../images/background.png');}
 .square-images{width:151px;}
 #squares{margin-top: 1%;padding:2%;color:white;}
-#form-contact{background-color: whitesmoke;margin-top:5%;margin-bottom: 5%; padding:3%;}
+#form-contact{color:white;margin-top:5%;margin-bottom: 5%; padding:3%; border: 2px solid white}
+#card-contact{color:white;margin-top:8%;margin-bottom: 5%; padding:3%; border: 2px solid white}
+#arrow img{margin-top: 50%; width:100%;}
+#space{margin-top: 20%;margin-bottom:20%;}

@@ -3,10 +3,11 @@
   <head>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" href="css/main.css"/>
-    <title>BPRConsultants</title>
+    <title>About Us</title>
+    <link rel="shortcut icon" href="images/favicon.png" />
   </head>
 
-  <body>
+  <body id='about-body'>
 
     <div class='navbar navbar-default navbar-static-top'>
       <div class='container'>
@@ -21,34 +22,31 @@
         </div>
         <ul class='nav navbar-nav navbar-right collapse navbar-collapse'>
           <li class='active'><a href='about.html'>About Us</a></li>
+          <li><a href='#'><img class='nav-image-2' src='images/Logo-2.png'/></a></li>
         </ul>
       </div>
     </div>
 
-    <div class='row'>
-      <div class='col-xs-6 col-xs-offset-3'>
-        <h1>Would you like to know more about us? Please contact us...</h1>
-      </div>
-    </div>
+    <div class='row'><img class='col-xs-6 col-xs-offset-3' src='images/Logo1.png'/></div>
+      <div class='row' style='margin-top:5%;'><div class='col-xs-8 col-xs-offset-2'><h1><hr></h1></div></div>
 
-    <div class='row' style='margin-top:1%;'><div class='col-xs-8 col-xs-offset-2'><h1><hr></h1></div></div>
+    <div id='space' class='visible-xs hidden-md col-xs-9 col-xs-offset-2'><h2>CONTACT US</h2></div>
 
     <div class='row'>
-      <div class='col-md-5 col-md-offset-1'>
-        <h2>Fill this form or ...</h2>
+      <div class='col-xs-10 col-xs-offset-1 col-md-5 col-md-offset-1'>
         <div id='form-contact'>
-        <form>
+        <form name="formContacto" method="post" action="sendbymail.php">
           <div class='form-group'>
             <label for="Name">Name</label>
-            <input type='text' class='form-control' id='NameForm'>
+            <input type='text' class='form-control' name='Name'>
           </div>
           <div class='form-group'>
             <label for="Description">Please, tell us what you need</label>
-            <textarea rows="4" class='form-control' id='DescriptionForm'></textarea>
+            <textarea rows="4" class='form-control' name='Description'></textarea>
           </div>
           <div class='form-group'>
             <label for="Email">Email</label>
-            <input type='email' class='form-control' id='EmailForm'>
+            <input type='email' class='form-control' name='Email'>
           </div>
           <div class='form-group'>
             <button type='submit' class='btn btn-success'>Send</button>
@@ -58,9 +56,8 @@
       </div>
 
 
-      <div class='col-md-4 col-md-offset-1 text-center'>
-        <h2>... However you like</h2>
-        <div id='form-contact'>
+      <div class='col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-1 text-center'>
+        <div id='card-contact'>
           <img class='square-images' src='images/agenda.png'><br><br>
         <adress>
           <strong>BPRConsultants</strong><br>
