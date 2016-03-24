@@ -1,12 +1,12 @@
 .nav-image{width:185px;margin-top:-6%;}
 .nav-image-2{width:100px;margin-top:-6%;}
-#index-body {background: url('../images/background.png');
+body {background: url('../images/background.png');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;}
-#about-body {background: url('../images/background.png');}
 .square-images{width:151px;}
+footer{margin-top:5%;}
 #squares{margin-top: 1%;padding:2%;color:white;}
 #form-contact{color:white;margin-top:5%;margin-bottom: 5%; padding:3%; border: 2px solid white}
 #card-contact{color:white;margin-top:8%;margin-bottom: 5%; padding:3%; border: 2px solid white}
