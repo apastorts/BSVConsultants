@@ -6,9 +6,13 @@ body {background: url('../images/background.png');
     background-size: cover;
     -o-background-size: cover;}
 .square-images{width:151px;}
+.container {
+    width: 100%;
+    white-space: nowrap;
+}
 footer{margin-top:5%;}
 #squares{margin-top: 1%;padding:2%;color:white;}
 #form-contact{color:white;margin-top:5%;margin-bottom: 5%; padding:3%; border: 2px solid white}
 #card-contact{color:white;margin-top:8%;margin-bottom: 5%; padding:3%; border: 2px solid white}
 #arrow img{margin-top: 50%; width:100%;}
-#space{margin-top: 50%;margin-bottom:20%;}
+#space{margin-top: 20%;margin-bottom:10%;}

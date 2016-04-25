@@ -2,7 +2,7 @@
 if(isset($_POST['Email'])) {
 
 // Debes editar las próximas dos líneas de código de acuerdo con tus preferencias
-$email_to = "info@bprconsultants.com.au";
+$email_to = "roland@bprconsultants.com.au";
 $email_subject = "Web contact";
 
 // Aquí se deberían validar los datos ingresados por el usuario
