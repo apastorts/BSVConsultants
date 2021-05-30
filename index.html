@@ -2,63 +2,196 @@
 
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
-    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <link href="https://unpkg.com/pattern.css" rel="stylesheet">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>BPRConsultants</title>
     <link rel="shortcut icon" href="images/favicon.png" />
   </head>
 
   <body>
-
-    <div class='navbar navbar-default navbar-static-top'>
-      <div class='container'>
-        <div class='navbar-header'>
-          <a href='index.html' class='navbar-brand'><img class='nav-image' src='images/Logo.png'/></a>
-          <button type='button' class='navbar-toggle' data-toggle='collapse' data-target=".navbar-collapse" >
-            <span class='sr-only'>Toggle Navigation</span>
-            <span class='icon-bar'></span>
-            <span class='icon-bar'></span>
-            <span class='icon-bar'></span>
-          </button>
+    <!-- Header -->
+    <div class="text-white h-screen w-full bg-cover bg-center" style="background-image:url('images/consulting.jpg')">
+      <div class="absolute w-full h-full bg-black opacity-60 z-0"></div>
+      <div class="flex-col justify-center relative z-10 w-full h-full">
+        <div class="flex justify-start p-8 w-full">
+          <div class="w-1/4">
+            <a href='index.html'>BPR Consultants</a>
+          </div>
+          <div class="w-3/4 text-right">
+            <a href='about.html'>Contact Us</a>
+          </div>
         </div>
-        <ul class='nav navbar-nav navbar-right collapse navbar-collapse'>
-          <li><a href='about.html'>Contact Us</a></li>
-          <li><a href='http://www.bprserv.esy.es'><img class='visible-md-* hidden-xs nav-image-2' src='images/Logo-2.png'/></a></li>
-          <li><a href='http://www.bprserv.esy.es' class='hidden-md visible-xs'>BPRSerV</a></li>
-        </ul>
+        <div class="h-full flex-col justify-center text-center p-8" style="font-family: Roboto;">
+          <div class="h-1/3"></div>
+          <div class="h-1/3">
+            <h1 class="text-3xl font-bold uppercase p-2">
+              More than 20 years of experience
+            </h1>
+            <p class="text-white text-lg">
+              At BPR Consultants our professionals will dedicate time to give you the information you need to have successfull projects.
+            </p>
+            <div class="flex justify-center p-4">
+              <div></div>
+              <div class="flex justify-between">
+                <div class="p-2">
+                  <button class="bg-white text-black text-center rounded shadow-sm px-6 py-4">
+                      About Us
+                  </button>
+                </div>
+                <div class="p-2">
+                  <a class="block bg-blue-500 text-white text-center rounded shadow-sm px-6 py-4" href="#contact">
+                    Contact Us
+                  </a>
+                </div>
+              </div>
+              <div></div>
+            </div>
+          </div>
+          <div class="h-1/3"></div>
+        </div>
       </div>
     </div>
-<div class='container'>
-    <div class='row'><img class='col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3' src='images/Logo1.png'/></div>
-    <div class='row' style='margin-top:5%;margin-bottom:5%;'><div class='col-xs-8 col-xs-offset-2'><h1><hr></h1></div></div>
-
-    <div id='space' class='visible-xs hidden-md'></div>
-
-    <div class='row'>
-      <div id='squares' class='col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-1 text-center'><img class='hidden-sm visible-xs square-images' src='images/three-black.png'/><img class='hidden-xs visible-sm-* square-images' src='images/three-white.png'/></br><h4>Quality, Safety and </br>Environmental </br>Management Systems</h4></br>EVALUATION > AUDITING </br>> IMPLEMENTATION</div>
-      <div id='arrow' class='visible-md-* hidden-xs col-sm-2 col-sm-offset-1'><img src='images/arrow.png'/></div>
-      <div id='squares' class='col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-1 text-center'><img class='square-images' src='images/together.png'/></br><h4>Integrated Management</br>Systems</h4></br>EVALUATION > AUDITING</br>> IMPLEMENTATION</div>
-    </div>
-    <div class='row'>
-      <div id='squares' class='col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-1 text-center'><img class='square-images' src='images/project.png'/></br><h4>Project Management </br>Services</h4></br></div>
-      <div id='squares' class='col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-4 text-center'><img class='square-images' src='images/camera.png'/></br><h4>Security Consultancy</h4></br>Security Industry No.407659659</div>
-    </div>
-</div>
-    <footer class='panel-footer'>
-      <div class='container'>
-        <div class='row'>
-          <div class='col-xs-12 text-center  col-md-1 col-md-offset-1 text-left'>BPR Consultants &#169; Pty Ltd.</div>
-          <div class='col-xs-12 text-center col-md-3 col-md-offset-6 text-right'><strong>P:</strong> 02 8006 0100<br><strong>M:</strong> 0414 566 163</div>
+    <!-- Body -->
+    <div class="w-full p-8">
+      <div class="flex lg:flex-row flex-col justify-between">
+        <div id="bprconsultants" class="m-auto w-full lg:w-1/3">
+          <img class="w-full p-4 mt-44" src="images/Logo1.png" alt="BPRConsultants"/>
         </div>
-        <div class='row'>
-          <div class='col-xs-12 text-center  col-md-3 col-md-offset-8'><strong>E:</strong><mail> info@bqrconsultants.com.au</mail></div>
+        <div class="w-full lg:w-2/3 p-16 flex flex-col lg:h-full justify-start">
+            <div class="text-4xl p-6 pl-16" style="font-family: Roboto;">
+                BPR Consultants offer the following services
+            </div>
+            <div id="safety" class="w-full flex flex-col md:flex-row justify-start p-4 md:pl-24">
+              <div class="bg-center bg-cover shadow-lg w-full md:w-1/3 h-48" style="background-image: url(images/safety.jpg);"></div>
+              <div class="flex flex-col px-8 my-auto py-4 md:py-0 w-full md:w-2/3">
+                <div class="text-gray-700 text-lg">Quality, Safety and Environmental Management Systems</div>
+                <ul class="list-disc text-md py-4 px-4">
+                  <li>Integrated Management System Compliance to ISO Standards</li>
+                  <li>System Process Improvement</li>
+                  <li>Internal Auditing</li>
+                </ul>
+              </div>
+            </div>
+            <div id="management" class="w-full flex flex-col md:flex-row justify-start p-4 md:pl-24">
+              <div class="bg-center bg-cover shadow-lg w-full md:w-1/3 h-48" style="background-image: url(images/management.jpg);"></div>
+              <div class="flex flex-col px-8 my-auto py-4 md:py-0 w-full md:w-2/3">  
+                <div class="text-gray-700 text-lg">Project Management Services</div>
+                <ul class="list-disc text-md py-4 px-4">
+                  <li>Business in house ERP and CRM Implementation</li>
+                  <li>Integrated Access Control and Alarms Management Project implementation</li>
+                </ul>
+              </div>
+            </div>
+            <div id="security" class="w-full flex flex-col md:flex-row justify-start p-4 md:pl-24">
+              <div class="bg-center bg-cover shadow-lg w-full md:w-1/3 h-48" style="background-image: url(images/securityCameras.jpg);"></div>
+              <div class="flex flex-col px-8 my-auto py-4 md:py-0 w-full md:w-2/3">
+                <div class="text-gray-700 text-lg">Security Consultancy</div>
+                <ul class="list-disc text-md py-4 px-4">
+                  <li>NSW Accredited and Licensed Security Consultancy Services</li>
+                  <li>Risk Management</li>
+                </ul> 
+              </div>
+            </div>
         </div>
+      </div>
+    </div>
+    <div class="w-full p-8">
+      <div class="flex lg:flex-row flex-col justify-between">
+        <div class="w-full lg:w-2/3 p-16 flex flex-col lg:h-full justify-start">
+            <div class="text-4xl p-6 pl-16" style="font-family: Roboto;">
+                BPR Serv Supplies and Installs
+            </div>
+            <div id="safety" class="w-full flex flex-col md:flex-row justify-start p-4 md:pl-24">
+              <div class="bg-center bg-cover shadow-lg w-full md:w-1/3" style="background-image: url(images/network.jpg);"></div>
+              <div class="flex flex-col px-8 my-auto py-4 md:py-0 w-full md:w-2/3">
+                <div class="text-gray-700 text-lg">Quality, Safety and Environmental Management Systems</div>
+                <ul class="list-disc text-md py-4 px-4">
+                  <li>Security Alarm, Access Control and Alarms Management Systems</li>
+                  <li>CCTV Systems</li>
+                  <li>Intercom Systems</li>
+                  <li>MATV Systems</li>
+                  <li>Audio Visual and Home Entertainment Systems</li>
+                  <li>IT Solution Management</li>
+                  <li>Structured Cabling Installations</li>
+                  <li>Networking</li>
+                  <li>WiFi Installation and Integration</li>
+                  <li>Telephone Systems</li>
+                  <li>VOIP Solutions</li>
+                  <li>PABX</li>
+                </ul>
+              </div>
+            </div>
+        </div>
+        <div id="bprserv" class="m-auto w-full lg:w-1/3">
+          <img class="w-full p-4 mt-32" src="images/Logo-2.png" alt="BPRServ"/>
+        </div>
+      </div>
+    </div>
+    <div class="flex justify-between p-8 py-16 w-full pattern-dots-sm bg-blue-400 shadow-md text-blue-500" style="font-family: Roboto;">
+      <div class="w-2/3 text-xl m-auto text-white font-bold">
+        "Roland is an experienced operator with a broad skill set, and can apply real world knowledge to any tasks related to Integrated Management Systems, Auditing activities, and Process Improvement."
+      </div>
+      <div class="w-1/3 flex flex-col justify-between text-white">
+        <div class="w-52 h-52 bg-cover bg-center shadow-lg rounded-full m-auto" style="background-image: url(images/damian.jpg);"></div>
+        <div class="m-auto font-bold text-lg p-4">Damian Foley - WV Technologies</div>
+      </div>
+    </div>
+    <div id='contact' class="w-full p-8">
+      <h1 class="text-3xl font-bold uppercase p-2 text-center">Contact Us</h1>
+      <form class="w-full flex-col p-4" name="formContacto" method="post" action="sendbymail.php">
+        <div class="flex-col w-full">
+          <label for="Name" class="block text-lg font-bold py-4">Name</label>
+          <input type='text' class='p-4 rounded shadow-lg w-full border border-gray-300' name='Name'>
+        </div>
+        <div class="flex-col w-full">
+          <label for="Description" class="block text-lg font-bold py-4">Please, tell us what you need</label>
+          <textarea rows="4" class='p-4 rounded shadow-lg w-full border border-gray-300' name='Description'></textarea>
+        </div>
+        <div class="flex-col w-full">
+          <label for="Email" class="block text-lg font-bold py-4">Email</label>
+          <input type='email' class='p-4 rounded shadow-lg w-full border border-gray-300' name='Email'>
+        </div>
+        <div class="flex-col w-full py-8">
+          <button type='submit' class='p-4 bg-blue-500 text-white text-center text-lg shadow-sm rounded w-full'>Send</button>
+        </div>
+      </form>
+    </div>
+    <!-- Footer -->
+    <footer class='flex justify-between w-full bg-blue-500 text-white p-4 shadow-lg'>
+      <div class="p-4">BPR Consultants &#169; Pty Ltd.</div>
+      <div>
+        <div><strong>M:</strong> 0414 566 163</div>
+        <div><strong>E:</strong><mail> info@bprconsultants.com.au</mail></div>
       </div>
     </footer>
-
-
-    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
-    <script src='js/bootstrap.min.js'></script>
   </body>
+  <script>
+    var animateEntrance = function(el, effect){
+      var bubble = el;
+      var position = bubble.getBoundingClientRect();
 
+      // checking whether fully visible
+      if(position.top >= 0 && position.bottom <= window.innerHeight) {
+        
+      }
+
+      // checking for partial visibility
+      if(position.top < window.innerHeight && position.bottom >= 0) {
+        if(!bubble.classList.contains(effect)){
+          bubble.classList.add("animate__animated");
+          bubble.classList.add(effect);
+        }
+      }
+    };
+    
+    window.onscroll = function() {
+      animateEntrance(document.getElementById('bprconsultants'), 'animate__bounceInLeft');
+      animateEntrance(document.getElementById('safety'), 'animate__fadeInDown');
+      animateEntrance(document.getElementById('management'), 'animate__fadeInDown');
+      animateEntrance(document.getElementById('security'), 'animate__fadeInDown');
+    };
+  </script>
 </html>
